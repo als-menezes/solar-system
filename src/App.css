@@ -1,3 +1,61 @@
-.App {
+body {
+  color: white;
   text-align: center;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.defaultTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainTitle {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Handjet', cursive;
+}
+
+.SolarSystem {
+  display: flex;
+  flex-direction: column;
+}
+
+.planetCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.missionCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.missionTitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.missionTexts {
+  font-size: 20px;
+}
+
+.MissionCard {
+  width: 15%;
+  border: 1px solid white;
+  height: 120%;
+  margin: 1px 1px 10px 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.PlanetCard {
+  width: 20%;
+}
+
+.planetImg {
+  width: 100%;
 }
