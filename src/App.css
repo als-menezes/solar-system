@@ -1,21 +1,21 @@
 body {
-  color: white;
-  text-align: center;
   background-image: url('./images/background.png');
-  background-size: cover;
   background-repeat: no-repeat;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  color: white;
+  font-family: Verdana , Geneva , Tahoma , sans-serif;
+  text-align: center;
 }
 
 .defaultTitle {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .mainTitle {
+  font-family: Handjet , cursive;
   font-size: 60px;
-  font-weight: bold;
-  font-family: 'Handjet', cursive;
+  font-weight: 700;
 }
 
 .SolarSystem {
@@ -30,13 +30,13 @@ body {
 
 .missionCards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.missionTitle{
+.missionTitle {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .missionTexts {
@@ -44,12 +44,12 @@ body {
 }
 
 .MissionCard {
-  width: 15%;
-  border: 1px solid white;
-  height: 120%;
-  margin: 1px 1px 10px 1px;
   background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
   color: black;
+  height: 120%;
+  margin: 1px 1px 10px;
+  width: 15%;
 }
 
 .PlanetCard {
