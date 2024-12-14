@@ -1,6 +1,8 @@
 # Solar System & Missions  
 
-<img src="https://media.discordapp.net/attachments/759565230874689557/1144314984990523514/Captura_de_tela_de_2023-08-24_13-55-46.png?width=832&height=468" alt="Exemplo imagem">
+<img src="https://i.imgur.com/8znhIjv.png" alt="Exemplo imagem">
+
+Disponível <a href="https://solar-system-and-missions.vercel.app/">aqui.<a/>
 
 > Bem-vindo ao projeto Sistema Solar e Missões Espaciais em React! Este projeto é uma aplicação web interativa que oferece informações fascinantes sobre o sistema solar e missões espaciais. Ele utiliza a biblioteca ReactJS para criar uma experiência de usuário dinâmica e envolvente. Além disso, conceitos avançados como High Order Functions são aplicados para otimizar o código e a modularidade..
 
